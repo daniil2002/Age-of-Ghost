@@ -1,0 +1,580 @@
+.w{
+    float: left;
+}
+.w1{
+    background-color: #ebff7b;
+}
+.cell{
+    width:350px;
+    height:350px;
+}
+.w2{
+   background-color: darkblue;
+}
+.button{
+    font-size: 25px;
+}
+.h {
+    display: none;
+}
+.blue{
+    background-color: darkblue;
+}
+.yellow{
+    background-color: #ebff7b;
+ }
+
+.width{
+     width:150px;
+ }
+
+
+.ball {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+body .cont{
+    background-image: url("image 3660.JPG") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+ .cont2{
+    background-image: url("image 3576.JPG") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.castle{
+    background-image:url("image 3556.png");
+    background-size: 100% 100%;
+    width:150px;
+    height:150px;
+    position: absolute;
+    top: 40%;
+}
+.war{
+    background-image:url("image 3580.png") ;
+    background-size: 100% 100%;
+    width:150px;
+    height:150px;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+.wall{
+    background-image:url("image 3554.png") ;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.wall2{
+    background-image:url("image 3554.png") ;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.skillet{
+    background-image:url("image 3595.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    left: 59%;
+    z-index: 10;
+}
+.skillet2{
+     background-image:url("image 3595.png") ;
+     background-size: 100% 100%;
+     width: 70px;
+     height: 70px;
+     position: absolute;
+     top: 63%;
+     left: 85%;
+ }
+.skillet3{
+   background-image:url("image 3595.png") ;
+   background-size: 100% 100%;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   top: 40%;
+   left: 70%;
+}
+.skillet4{
+    background-image:url("image 3595.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 70%;
+    left: 57%;
+}
+
+.stoun{
+     background-image:url("image 3667.png") ;
+     background-size: 100% 100%;
+     width: 70px;
+     height: 70px;
+     position: absolute;
+     top: 60%;
+     left: 25%;
+ }
+.stoun1{
+    background-image:url("image 3670.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 39%;
+    left: 20%;
+}
+.stoun2{
+    background-image:url("image 3670.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 57%;
+    left:40%;
+}
+.tree{
+    background-image:url("image 3697.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 57%;
+    left:0%;
+}
+.tree1{
+    background-image:url("image 3697.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:20%;
+    left:0%;
+}
+.tree2{
+    background-image:url("image 3697.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:79%;
+    left:0%;
+}
+.tree3{
+    background-image:url("image 3697.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 10%;
+    left:0%;
+    z-index: 10;
+}
+.tree4{
+    background-image:url("image 3697.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:30%;
+    left:0%;
+}
+.tree5{
+    background-image:url("image 3697.png") ;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:69%;
+    left:0%;
+}
+.blood{
+                 background-image:url("image 257.png") ;
+                 background-size: 100% 100%;
+                 width: 70px;
+                 height: 70px;
+                 position: absolute;
+                 top:65%;
+                 left:70%;
+}
+.shop{
+    background-image:url("image 3575.png") ;
+    background-size: 100% 100%;
+    display: none;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:0%;
+    left:50%;
+}
+.bow{
+    background-image:url("image 624.png") ;
+    background-size: 100% 100%;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top:0%;
+    left:0%;
+}
+.en1 {
+    background-image:url("en1/en1.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+    position: absolute;
+    top:45%;
+    left:150px;
+}
+.en1.anim {
+    background-image:url("en1/en1anim.gif");
+}
+.en1.fight{
+    background-image:url("en1/fight.gif") ;
+}
+.en1.die{
+    background-image:url("en1/die.gif") ;
+}
+.en1shop{
+    background: none;
+    background-image:url("en1/en1.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+}
+.barak {
+    float: left;
+    border: 5px outset;
+    background-color: orangered;
+}
+
+.en2 {
+    background-image:url("en1/en1.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+    position: absolute;
+    top:45%;
+    left:150px;
+}
+.en2.anim {
+    background-image:url("en2/en2.gif");
+}
+.en2.fight{
+    background-image:url("en2/en3.gif") ;
+}
+.en2.die{
+    background-image:url("en2/die.gif") ;
+}
+.en2shop{
+    background: none;
+    background-image:url("en2/en2.png");
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+}
+.en5{
+    background-image:url("en5/en5.png") ;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:45%;
+    left:150px;
+}
+.en5.anim {
+    background-image:url("en5/en5.gif");
+}
+.en5.fight{
+    background-image:url("en5/en5fight.gif") ;
+}
+.en5.die{
+    background-image:url("en5/en5dieing.gif") ;
+}
+.en5shop{
+  background: none;
+    background-image:url("en5/en5.png");
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+}
+.barak1 {
+     float: right;
+     border: 5px outset;
+     background-color: orangered;
+   display: none;
+ }
+.health, .healthout{
+    position: absolute;
+    border: 1px solid;
+    color: gray;
+    width: 40px;
+    left: 30px;
+    height: 7px;
+    top: -20px;
+}
+.healthout{
+    left: 100px;
+}
+.health1{
+    position: absolute;
+    background-color: green ;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+.en3 {
+    background-image:url("en3/en3.png") ;
+    background-size: 80% 80%;
+    width: 90px;
+    height: 75px;
+    position: absolute;
+    top:45%;
+    left:150px;
+}
+.en3shop{
+    background: none;
+    background-image:url("en3/en3.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+}
+.en3.anim {
+    background-image:url("en3/en3.gif");
+}
+.en3.fight{
+    background-image:url("en3/en3fight.gif") ;
+}
+.en3.die{
+    background-image:url("en3/en3dieing.gif") ;
+}
+.en4 {
+     background-image:url("en4/en4.png") ;
+     background-size: 100% 100%;
+     width: 90px;
+     height: 75px;
+     position: absolute;
+     top:45%;
+     left:150px;
+ }
+.en4shop{
+    background: none;
+    background-image:url("en4/en4.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+}
+.en4.anim {
+    background-image:url("en4/en4.gif");
+}
+.en4.fight{
+    background-image:url("en4/en4fight.gif") ;
+}
+.en4.die{
+    background-image:url("en4/en4dieng.gif") ;
+}
+
+.en6shop{
+    background:none;
+    background-image:url("en6/en6.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+}
+.en6.anim {
+    background-image:url("en6/en6.gif");
+}
+.en6.fight{
+    background-image:url("en6/en6fight.gif") ;
+}
+.en6.die{
+    background-image:url("en6/en6dieing.gif") ;
+}
+.en6 {
+    background-image:url("en6/en6.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+    position: absolute;
+    top:45%;
+    left:180px;
+}.en7shop{
+     background:none;
+     background-image:url("en7/en7.png") ;
+     background-size: 100% 100%;
+     width: 90px;
+     height: 75px;
+ }
+.en7.anim {
+    background-image:url("en7/en7.gif");
+}
+.en7.fight{
+    background-image:url("en7/en7fight.gif") ;
+}
+.en7.die{
+    background-image:url("en7/en7dieing.gif") ;
+}
+.en7 {
+    background-image:url("en7/en7.png") ;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 75px;
+    position: absolute;
+    top:45%;
+    left:180px;
+}
+.money {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+audio {
+    display: none;
+}
+
+.GameOver {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-size: 25px;
+    display: none;
+    z-index: 1;
+    text-align: center;
+    align-content: center;
+}
+.we1 {
+    background-image: url("we1.png");
+    background-size: 100% 100%;
+    width: 8px;
+    height: 5px;
+    position: absolute;
+}
+.die {
+    display: none;
+}
+.dieing {
+    width: 100px;
+    height: 100px;
+}
+.tower1{
+    position: absolute;
+    left: 50px;
+    top: 30%;
+    width:38px ;
+    height: 39px;
+    background-image: url("tower1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 20;
+}
+.tower2{
+    position: absolute;
+    right: 50px;
+    top: 30%;
+    width:38px ;
+    height: 39px;
+    background-image: url("tower2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 20;
+}
+.en1, .en2, .en3, .en4, .en5, .en6, .en7 {
+    background-repeat: no-repeat;
+}
+.button1{
+    top: 1%;
+    left:1%;
+    position: absolute;
+    /*background-image: url("img1.jpg");*/
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    background-color: green;
+    font-size: 40px;
+    font-style:italic ;
+    color: #ff0008;
+    padding: 50px;
+    border-radius:30px ;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.button2{
+    top: 1%;
+    left: 50%;
+    position: absolute;
+    /*background-image: url("image 4884.png");*/
+    /*background-repeat:no-repeat ;*/
+    /*background-position:center center ;*/
+    background-size: contain;
+    font-size: 30px;
+    background-color: #cfff99;
+    font-style:italic ;
+    color: #000000;
+    padding: 50px;
+    border-radius:30px ;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.button3{
+    top: 1%;
+    left: 80%;
+    position: absolute;
+    /*background-image: url("image 4884.png");*/
+    background-repeat:no-repeat ;
+    /*background-position:center center ;*/
+    /*background-size: contain;*/
+    font-size: 30px;
+    background-color: #cfff99;
+    font-style:italic ;
+    color: #000000;
+    padding: 50px;
+    border-radius:30px ;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.hero{
+
+}
+.hero{
+    background-image: url("hero11.png") ;
+    background-size: 621px 500px;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
+    top: 20%;
+    left: 20%;
+    position:absolute;
+}
+.audio2{
+   display: none;
+}
+
+.bomba {
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+}
