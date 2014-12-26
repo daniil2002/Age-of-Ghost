@@ -5,7 +5,6 @@ enemsL = [];
 wes = [];
 wid = $(window).width();
 hei = $(window).height();
-alert('wid='+wid+' hei='+hei);
 interv = 50;
 money = 100;
 function createW1(x1, y1, x2, y2) {
@@ -237,7 +236,7 @@ setInterval(function(){
                 var _i = i;
                 setTimeout(function() {
                     enemsR[_i].elem.remove();
-                    enemsR.splice(0, 1);
+                    enemsR.splice(_i, 1);
                 }, 400);
             }
 
@@ -247,7 +246,9 @@ setInterval(function(){
             setFightState(enemsR[i]);
             var _i = i;
             setTimeout(function() {
-                subHealth(enemsL[0], enemsR[_i].power*enemsL[0].powerk, enemsL);
+                if (typeof enemsR[_i] != "undefined" && typeof enemsL[0] != "undefined") {
+                    subHealth(enemsL[0], enemsR[_i].power*enemsL[0].powerk, enemsL);
+                }
             }, 200);
 
         } else {
@@ -290,7 +291,7 @@ setInterval(function(){
                 var _i = i;
                 setTimeout(function() {
                     enemsL[_i].elem.remove();
-                    enemsL.splice(0, 1);
+                    enemsL.splice(_i, 1);
                 }, 400);
                 money += enemsL[i].price * 1.5;
                 updateMoneyDiv();
@@ -314,7 +315,10 @@ setInterval(function(){
         }
         if (enemsR.length > 0 && Math.abs(enemsR[0].left-enemsL[i].left) < enemsL[i].distanceF) {
             setFightState(enemsL[i]);
-            subHealth(enemsR[0], enemsL[i].power*enemsR[0].powerk, enemsR);
+            if (typeof enemsL[_i] != "undefined" && typeof enemsR[0] != "undefined") {
+                subHealth(enemsR[0], enemsL[i].power*enemsR[0].powerk, enemsR);
+            }
+
         } else {
             if (enemsL[i].left > enemsL[i].targetLeft) {
                 if (i > 0 && (Math.abs(enemsL[i-1].left - enemsL[i].left) < enemsL[i].distance || enemsL[i].left < enemsL[i-1].left)) continue;
@@ -341,16 +345,22 @@ setInterval(function(){
    }
     for(var i = 0; i < wes.length; ++i) {
         if (wes[i].directionR && wes[i].left > wes[i].targetLeft) {
-            var _i = i;
+            _i = i;
             setTimeout(function() {
-                subHealth(enemsL[0], wes[_i].power*enemsL[0].powerk, enemsL);
+                if (typeof enemsR[_i] != "undefined" && typeof enemsL[0] != "undefined") {
+                    subHealth(enemsR[0], wes[_i].power*enemsL[0].powerk, enemsL);
+                }
+
                 wes[_i].elem.remove();
                 wes.splice(_i, 1);
             }, 80);
         } else if (!wes[i].directionR && wes[i].left < wes[i].targetLeft) {
-            var _i = i;
+            _i = i;
             setTimeout(function() {
-                subHealth(enemsR[0], wes[_i].power*enemsR[0].powerk, enemsR);
+                if (typeof wes[_i] != "undefined" && typeof enemsR[0] != "undefined") {
+                    subHealth(enemsR[0], wes[_i].power*enemsR[0].powerk, enemsR);
+                }
+
                 wes[_i].elem.remove();
                 wes.splice(_i, 1);
             }, 80);

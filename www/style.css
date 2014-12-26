@@ -153,56 +153,56 @@ body .cont{
 .tree{
     background-image:url("image 3697.png") ;
     background-size: 100% 100%;
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     position: absolute;
-    top: 57%;
-    left:0%;
+    top: 62%;
+    left:20%;
 }
 .tree1{
     background-image:url("image 3697.png") ;
     background-size: 100% 100%;
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     position: absolute;
-    top:20%;
+    top:25%;
     left:0%;
 }
 .tree2{
     background-image:url("image 3697.png") ;
     background-size: 100% 100%;
-    width: 70px;
-    height: 70px;
+    width:35px;
+    height: 35px;
     position: absolute;
-    top:79%;
-    left:0%;
+    top:84%;
+    left:20%;
 }
 .tree3{
     background-image:url("image 3697.png") ;
     background-size: 100% 100%;
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height:35px;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left:0%;
     z-index: 10;
 }
 .tree4{
     background-image:url("image 3697.png") ;
     background-size: 100% 100%;
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     position: absolute;
-    top:30%;
-    left:0%;
+    top:35%;
+    left:12%;
 }
 .tree5{
     background-image:url("image 3697.png") ;
     background-size: 100% 100%;
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     position: absolute;
-    top:69%;
+    top:74%;
     left:0%;
 }
 .blood{
