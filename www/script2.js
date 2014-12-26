@@ -5,6 +5,7 @@ enemsL = [];
 wes = [];
 wid = $(window).width();
 hei = $(window).height();
+alert('wid='+wid+' hei='+hei);
 interv = 50;
 money = 100;
 function createW1(x1, y1, x2, y2) {
